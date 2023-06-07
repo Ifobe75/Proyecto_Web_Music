@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Musica</title>
+    <link rel="icon" type="image/x-icon" href="Image/music-png-6099.ico">    
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="CSS/style.css">
+    <style>        
+    </style>    
+    <script src="JS\script.js"></script>
+    <script>       
+    </script>
+</head>
+<body>
+    <div id="banner" class="banner"><header></header>       
+    </div>
+    <div id="menuBoton" class="menuBoton">
+        <nav>
+        <a href="index.html"><button type="button" class="btn btn-primary">Incio</button></a>
+        <a href="noticias.html"><button type="button" class="btn btn-secondary">Noticias</button></a>
+        <a href="historia.html"><button type="button" class="btn btn-success">Historia</button></a>
+        <a href="soporte.html"><button type="button" class="btn btn-danger">Soporte</button></a>
+        <a href="contacto.html"><button type="button" class="btn btn-warning">Contacto</button></a>           
+        </nav>
+    </div>
+    <div id="central" class="central">
+        <div id="separadorCentral1" class="separadorCentral1"></div>
+        <div class="section1">
+            <div id="separadorSection1" class="separadorSection1"></div>          
+            <div id="centroSection" class="centroSection">
+                <div id="contactoCabecera" class="contactoCabecera">
+                    <div id="contactoFoto" class="contactoFoto">
+                        <img src="Image\uncleSam.png" alt="Tio Sam">
+                    </div>
+                    <div id="contactoTitulo" class="contactoTitulo">
+                        <h6>¿Quieres ser uno de los nuestros?</h6>
+                        <p>Actualmente estamos buscando colaboradores para nuestro sitio web.
+                            Si buscas trabajo, a tiempo parcial o completo, estas de enhorabuena.
+                            Estamos a la caza de personal, para ello te ofrecemos varias opciones.
+                            Necesitamos incorporar gente a varios departamentos: Redactores, Diseño web, 
+                            contabilidad. No pierdas tiempo y rellena nuestro formulario.                    
+                        </p>
+                        
+                    </div>
+                </div>
+                <div id="contactoFormulario" class="contactoFormulario">                   
+                    <form action="formulario.html" method="get">
+                        <fieldset id="contactoFormularioBorde" class="contactoFormularioBorde">
+                            <legend>Solicitud de trabajo</legend><br/>
+                            <label for="userName">Nombre:</label>
+                            <input type="text" id="Nombre" name="Nombre" size="18px">
+                            <label for="userLastName">Apellidos:</label>
+                            <input type="text" id="Apellidos" name="Apellidos" size="18px">
+                            <br/><br/>
+                            <label for="email">Correo:</label>
+                            <input type="email" id="email" name="email"size="18px" >
+                            <label for="direccion">Dirección:</label>
+                            <input type="text" id="Domicilio" name="Domicilio" size="18px">
+                            <br/><br/>
+                            <label for="edad">Edad:</label>
+                            <input type="text" id="edad" name="edad" size="3">
+                            <label for="telf">Teléfono:</label>
+                            <input type="tel" id="Telf" name="Telf" size="15">
+                            <br/><br/>
+                            <label for="puesto">Puesto:</label>
+                            <select name="Puesto" id="Puesto">
+                                <option value=""></option>
+                                <option value="Diseño Web">Diseño Web</option>
+                                <option value="Contabilidad">Contabilidad</option>
+                                <option value="Redacción">Redaccion</option>
+                            </select>
+                            <br/><br/>
+                            <label for="modalidad">Modalidad:</label>
+                            <select name="modalidad" id="modalidad">
+                                <option value=""></option>
+                                <option value="Presencial">Presencial</option>
+                                <option value="Remoto">Remoto</option>
+                                <option value="Redacción">Hibrido</option>
+                            </select>
+                            <br/><br/>
+                            <input class="contactoSubmit" type="submit" value="Enviar Solicitud">
+                        </fieldset>
+                    </form>                    
+                </div>                
+            </div>            
+            <div id="separadorSection2" class="separadorSection2"></div>
+        </div>
+        <div id="separadorCentral2" class="separadorCentral2"></div>        
+        <div class="lado1"><aside>
+            <div id="prensaTitulo" class="prensaTitulo">REPRODUCTOR:</div> 
+            <br/>
+            <div id="reproductor" class="reproductor">
+                <iframe style="border-radius:12px" src="https://open.spotify.com/embed/playlist/6zsN3tke7jQAl2chS8hBqK?utm_source=generator&theme=0" width="100%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+            </div>
+            <br/>
+            <div id="spinners" class="spinners">
+                <div class="spinner-border text-primary" role="status">
+                    <span class="visually-hidden">==</span>
+                </div>
+                <div class="spinner-border text-secondary" role="status">
+                    <span class="visually-hidden">:|</span>
+                </div>
+                <div class="spinner-border text-success" role="status">
+                    <span class="visually-hidden">**</span>
+                </div>
+                <div class="spinner-border text-danger" role="status">
+                    <span class="visually-hidden">;]</span>
+                </div>
+                <div class="spinner-border text-light" role="status">
+                    <span class="visually-hidden">ºº</span>
+                </div>
+                <div class="spinner-border text-dark" role="status">
+                    <span class="visually-hidden">ö</span>
+                </div>
+            </div>
+            <br/>
+            <div id="prensaTitulo" class="prensaTitulo">PRENSA MUSICAL:</div><br/>     
+                <div id="prensaMusical" class="prensaMusical">
+                    <a href="https://es.rollingstone.com/esp/" target="_blank">
+                    <img src="Image/Rstone.png" alt="Rolling Stone"></a>
+                    <a href="https://hiphoplifemag.es/" target="_blank">
+                    <img src="Image/hiphop.png" alt="Rolling Stone"></a>
+                    <a href="https://www.rockdelux.com/" target="_blank">
+                    <img src="Image/rockdelux.png" alt="Rolling Stone"></a>
+                    <a href="https://www.efeeme.com/" target="_blank">
+                    <img src="Image/EfeEme.png" alt="Rolling Stone"></a>
+                </div>
+        </aside></div>
+        <div id="separadorCentral1" class="separadorCentral1"></div>    
+    </div>
+        <div id="margenPie" class="margenPie"></div>
+        <div class="Conclusion">
+            <div id="pieA" class="pieA">            
+                <div id="enlaceSeccion" class="enlaceSeccion">
+                    <p>CONTENIDOS</p>
+                    <a href="index.html"><button type="button" class="btn btn-primary">Inicio</button></a>                
+                    <a href="noticias.html"><button type="button" class="btn btn-secondary">Noticias</button></a>
+                    <a href="historia.html"><button type="button" class="btn btn-success">Historia</button></a>
+                    <a href="soporte.html"><button type="button" class="btn btn-danger">Soporte</button></a>
+                    <a href="contacto.html"><button type="button" class="btn btn-warning">Contacto</button></a>                              
+                </div>
+            </div>
+            <div id="pieB" class="pieB">
+                <div id="formulario1" class="formulario1">
+                    <form>
+                        <legend>Suscribete al boletin de noticias</legend>
+                        <div class="mb-3">
+                            <label for="nombreUsuario" class="form-label">Nombre y Apellidos</label>
+                            <input type="text" class="form-control" id="nombreUsuario">   
+                            <label for="usuarioEmail" class="form-label">Dirección Email </label>
+                            <input type="email" class="form-control" id="usuarioEmail" aria-describedby="emailHelp">                 
+                        </div>                
+                        <div class="mb-3 form-check">
+                            <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                            <label class="form-check-label" for="exampleCheck1">Acepto términos y condiciones</label>
+                            <button type="submit" class="btn btn-primary" onclick="Respuesta()">Registro</button>
+                        </div>                   
+                    </form>
+                </div>
+            </div>
+            <div id="pieC" class="pieC">
+                <div id="redSocial" class="redSocial">
+                    <a href="https://www.facebook.com/" target="_blank">
+                    <img src="Image/face.png" alt="facebook"></a>
+                    <a href="https://twitter.com" target="_blank">
+                    <img src="Image/twitt.png" alt="twitter"></a>
+                    <a href="https://www.instagram.com/" target="_blank">
+                    <img src="Image/insta.png" alt="instagram"></a>
+                    <a href="https://www.youtube.com/" target="_blank">
+                    <img src="Image/yotu.png" alt="youtube"></a>
+                    <a href="mailto:info@musica.com" target="_blank">
+                    <img src="Image/mailto.png" alt="mail"></a>
+                    <a><img src="Image/whats.png" alt="whatsapp" title="+34 654 321 987"></a>
+                </div>
+                <div  id="linea" class="linea"></div>
+                <div id="date" class="fechaPie"></div>
+                <div id="linea" class="linea"></div>
+                <div id="copyright" class="copyright"><p></p>&copy; 1975-2023 Ifobe75</p></div>
+                <div id="linea" class="linea"></div>
+            </div> 
+        </div>   
+</body>
+</html>

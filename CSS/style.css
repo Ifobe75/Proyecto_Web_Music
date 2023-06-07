@@ -1,0 +1,333 @@
+
+.banner{
+    width: 100%;
+    height: 300px;
+    background-image: url("../Image/musicBanner!0.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center; 
+    border: 2px solid black;                     
+}
+.menuBoton{
+    text-align: center;
+    padding: 10px;
+}
+.menuBoton button{
+    width: 125px;
+    margin-right: 20px;
+}
+.central{
+    width: 100%;
+    height: 800px;
+    padding-right: 2px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.separadorCentral1{
+    width: 3%;
+    height: 792px;           
+}
+.separadorCentral2{
+    width: 1%;
+    height: 792px;
+}
+.section1{
+    width: 70%;
+    height: 792px;
+    border: 2px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.separadorSection1{
+    width: 15%;
+    height: 792px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url("../Image/lateralsection1.png");
+    border-right: 2px solid black; ;            
+}
+.centroSection{
+    width: 70%;
+    height: 789px;
+    background-color: white;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    overflow-y: auto;                     
+}
+.indexTitulo{
+    color: black;
+    width: 100%;
+    height: 70px;  
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.indexPresentacion{
+    width: 100%;
+    height: 250px;  
+    display: flex;
+  justify-content: center;
+    align-items: center;
+} 
+.indexPresentacionText{
+font-size: 15px;
+color: black;
+width: 100%;
+    height: 190px;  
+    display: flex;
+  justify-content: center;
+    align-items: center;     
+}
+.indexCentro{
+    width: 100%;
+    height: 190px;  
+    display: flex;
+    justify-content: center;
+    align-items: center;
+} 
+.indexCentroFoto{
+    width: 100%;
+    height: 190px;  
+    display: flex;
+    justify-content: center;
+    align-items: center;     
+} 
+.indexConclusion{
+font-size: 14px;
+    color: black;
+    width: 100%;
+    height: 275px;  
+    display: flex;
+    justify-content: center;
+    align-items: center;
+} 
+.indexContenidoTitulo{
+font-family: 'Orbitron', 'Times New Roman';
+}
+.contactoCabecera{
+    width: 100%;
+    height: 300px;
+    display: flex;
+}
+.contactoFoto{
+    width: SS;
+    height: 290px;
+    padding-top: 9px;           
+}
+.contactoTitulo{
+    width: 66%;
+    height: 290px;
+    padding-bottom: 5px;
+}
+.contactoTitulo h6{
+    font-family: 'Orbitron', 'Times New Roman';
+    padding: 15px;
+}
+.contactoTitulo p{
+    padding: 5px;
+    text-align: center;
+    font-size: 14px;
+}
+.contactoFormulario{
+    width: 100%;
+    height: 488px;
+    background-color: lightblue;                    
+}
+.contactoFormulario form{
+    width: 90%;
+    height: 450px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin-left: 33px;            
+}
+.contactoFormulario label{
+    font-size: 14px;
+}
+.contactoFormulario select{
+    width: 150px;
+    font-size: 14px;
+}
+.contactoFormulario legend{
+    font-family: 'Orbitron', 'Times New Roman';
+    font-size: 16px;
+}
+.contactoSubmit{
+    background-color: greenyellow;
+    background-image: linear-gradient(to bottom, #1abc9c, #16a085);
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+}
+.soportesTitulo{
+    width: auto;
+    height: 30px;  
+}
+.soportesZonaTabla{
+    width: auto;
+    height: 435px;     
+}
+.soportesFoto{
+    width: auto;
+    height: 300px;
+    text-align: center;
+}
+.noticiasBloque1{
+    width: auto;
+    height: 395px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.noticiasSeparador{
+    width: 5px;
+    height: 395px;
+}
+.noticiasBloque2{
+    width: auto;
+    height: 394px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;            
+}
+.historiaTitulo{
+    width: auto;
+    height: 20px;
+    font-family: 'Orbitron', 'Times New Roman';  
+}
+.historiaFoto{
+    width: auto;
+    height: 155px;
+    background-image: url("../Image/evolucionMusical.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    margin: 5px;
+}
+.historiaParrafo{
+    width: auto;
+    height: 612px;
+}
+.historiaParrafo p{
+    font-size: 11px;
+    text-align: justify;
+    margin: 2px;
+}    
+.separadorSection2{
+    width: 15%;
+    height: 792px;           
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url("../Image/lateralsection2.png");
+    border-left: 2px solid black;           
+} 
+.lado1{
+    background-image: url("../Image/fondoaside.png");
+    width: 23%;
+    height: 792px;
+    border: 2px solid black;
+    overflow-y: auto;
+    padding: 20px; 
+    text-align: center;
+}
+.prensaTitulo{
+    font-family: 'Orbitron', 'Times New Roman';
+    font-size: 20px;
+    text-shadow: 3px 3px 8px rgb(214, 18, 244);           
+}
+.prensaMusical{
+    width: 100%;
+    height: 375px;
+}
+.prensaMusical img {
+    width: 80%;            
+    padding: 10px;
+}
+.margenPie{
+    width: 100%;
+    height: 9px;
+}
+.Conclusion{
+    background: rgb(225, 95, 246);
+    border: 2px solid black;
+    width: 100%;
+    height: 300px; 
+    display: flex;
+    justify-content: center;
+    align-items: center;            
+}
+.pieA{
+    width: 30%;
+    height: 297px;
+    text-align: center;
+    justify-content: center;
+    align-items: center; 
+    display: flex; 
+}
+.pieA button{
+    width: 200px;
+    margin: 3px;
+} 
+.pieA p{
+    font-size: large;
+    font-family: 'Orbitron', 'Times New Roman';             
+} 
+.pieB{
+    width: 30%;
+    height: 297px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    display: flex;            
+}
+.formulario1 button{
+    margin-left: 10px; 
+}
+.formulario1 legend{
+    font-family: 'Orbitron', 'Times New Roman';
+    font-size: large;    
+}
+.form-check-input{
+    margin-top: 10px;
+}
+.pieC{
+    width: 40%;
+    height: 297px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;           
+}
+.copyright{
+    color: black;
+    width: 100%; 
+    justify-content: center;
+    align-items: center;           
+} 
+.redsocial{
+    width: 100%;
+    height: 200px;            
+}
+.redSocial img {
+    width: 50px;
+    height: 50px;
+    margin-right: 10px;
+} 
+.fechaPie{
+    font-size: 20px; 
+    font-family: 'Orbitron', 'Times New Roman';                    
+} 
+.linea{
+    width: 90%;
+    height: 1px;
+    background-color: black;
+    margin: 10px;  
+} 
